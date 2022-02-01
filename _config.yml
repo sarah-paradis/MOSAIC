@@ -1,0 +1,10 @@
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+title: MOSAIC
+description: Modern Ocean Sediment Archive and Inventory of Carbon
+
+logo: /assets/img/logo.jpg
+
+show_downloads: false
