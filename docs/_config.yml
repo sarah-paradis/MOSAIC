@@ -8,3 +8,5 @@ description: Modern Ocean Sediment Archive and Inventory of Carbon
 logo: /assets/img/logo.jpg
 
 show_downloads: false
+
+theme: jekyll-theme-tactile
