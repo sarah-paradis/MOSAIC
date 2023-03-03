@@ -25,9 +25,9 @@ Provide information about the analyses performed on the samples. Columns in dark
 Choose from the drop-down menu the *core_name* that you previously specified in GEOPOINTS_CORES. This is why the core_name needs to be unique!
 The *sample_name* doesn't need to be unique. 
 - Article / Author that provided data: exclusivity_clause, title, author_firstname, author_lastname.
-Choose from the drop-down menu the *title* and *author* name that you previously specified in ARTICLE_AUTHOR. This will link the information you provide in this sheet to the appropriate reference.
+Choose from the drop-down menu the *title* and *author* name that you previously specified in ARTICLE_AUTHOR. This will link the information you provide in this sheet to the appropriate reference.  
 ![geopoint_article_author](https://user-images.githubusercontent.com/15121054/222728834-31a43d9c-f7c6-419b-a262-357f770816fd.jpg)
 - Section of sample in the core: sample_depth_upper_cm, sample_depth_bottom_cm, sample_depth_average_cm
 Provide the upper and bottom sample section slice of the core (sample_depth_upper_cm, sample_depth_bottom_cm) **and/or** the average section depth (sample_depth_average_cm). Provide as much information as possible.  
-Some studies only report that they smaple *surface sediment* without specifying which sampling sectioning they performed (0-0.5 cm, 0-1 cm, 0-2 cm). In these situations, put 0 in *sample_depth_average_cm*, and you can even specify this under *sample_comments*. If you have any additional information to say about the sample section, add it under *sample_comment*.
+Some studies only report that they smaple *surface sediment* without specifying which sampling sectioning they performed (0-0.5 cm, 0-1 cm, 0-2 cm). In these situations, put 0 in *sample_depth_average_cm*, and you can even specify this under *sample_comments*. If you have any additional information to say about the sample section, add it under *sample_comment*.  
 ![sample_sectioning](https://user-images.githubusercontent.com/15121054/222728924-ce8d68b0-3916-4fed-8d3f-ddb9a269c810.jpg)
