@@ -48,9 +48,9 @@ The **third row** (*Method*) lets you choose the method category used to analyse
 Since the method categories do not allow you to provide details about the method employed, the **fourth row** (*Method details*) provides you with a space to add a free-text with additional information, such as the model's equipment employed, or pre-treatment used. In the case of biomarkers, we encourage you to specify which compounds were analyzed, as shown below:
 ![image](https://user-images.githubusercontent.com/15121054/222748504-bddfa17e-698a-42c0-bc24-d35dadaaef55.png)
 
-The **fifth row** (*Material analyzed*) lets you choose if the analysis was performed on bulk sediment, TOC, or which sediment or molecular fraction was analyzed. You can see below the most common examples:  
+The **fifth row** (*Material analyzed*) lets you choose if the analysis was performed on bulk sediment, TOC, or which sediment or molecular fraction was analyzed. You can see below some common examples:  
+![image](https://user-images.githubusercontent.com/15121054/222750102-045843b6-6c44-498c-bc51-e67cbfd5d426.png)
 
-The **sixth_row** (*Reported/calculated data*) lets you specify whether the data you provide was reported in the study 
+The **sixth_row** (*Reported/calculated data*) lets you specify whether the data you provide was reported in the study/repository or if you calculated from other parameters. 
 
-
-**Note: You can have duplicate columns with the same analysis, as long as the method employed, material_analyzed, or reported/calculated field is different.**
+**Note: You can have duplicate columns with the same analysis, as long as the method employed, material_analyzed, or reported/calculated field is different, as shown above.**
