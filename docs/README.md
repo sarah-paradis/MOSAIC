@@ -14,7 +14,7 @@ We're expanding MOSAIC, and with
 #### 1. Database structure
 We have slightly updated the database's stucture, mainly modified the storage of sample metadata, so you can easily see where the data came from (the reference), how it was measured (method), if we calculated the data based on existing parameters, etc.
 ![mosaic_structure-01](https://user-images.githubusercontent.com/15121054/222676833-d4a10ae4-120a-4a9f-9586-7521498e094a.jpg)
-<figcaption>Simple schematic representation of the database's structure</figcaption>
+<em>Simple schematic representation of the database's structure</em>
 
 #### 2. Database quality check and population workflow
 
