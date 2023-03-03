@@ -15,7 +15,7 @@ Provide information about the source of the data. If you have a DOI, provide it,
 
 ## GEOPOINTS_CORES
 Provide information about the sediment sampling. Columns in dark green are required, and the remaining columns are complimentary. 
-- **Core_name:** unique name of the retrieved sediment sample. 
+- **Core_name:** unique name of the retrieved sediment sample.  
 **Note that the core_name needs to be unique for indexing purposes. If you have two cores with the same name, modify their names so that they are unique (e.g., add the sampling year or month, name of cruise, etc.)**
 - **Latitude and Longitude:** should be provided in WGS 84 degrees decimal.
 - **Georeferenced_coordinates:** Defines whether the location of the sample was obtained by georeferencing a map, or whether they were provided in tabular format from the source.
