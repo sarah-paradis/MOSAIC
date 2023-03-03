@@ -32,5 +32,5 @@ We have slightly updated the database's stucture, mainly modified the storage of
 MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
 
 ## More to come!
-We just received an Open Research Data-Contribute Project: Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database (**API-MOSAIC**). With this grant, we will further expand and update the accessibility to the MOSAIC database. 
+We just received an Open Research Data-Contribute Project: *Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database (**API-MOSAIC**)*. With this grant, we will further expand and update the accessibility to the MOSAIC database. 
 **New website and API are coming to you this 2023!**
