@@ -16,11 +16,11 @@ We have slightly updated the database's stucture, mainly modified the storage of
 <em>Simple schematic representation of the database's structure</em>
 
 #### 2. Database quality check and population workflow
-
+One of the mistakes we identified from the previous quality check and population workflow was that it could lead to duplicate entries in the database and data published in different studies on the same samples were not properly lined together, hindering assessing relationships and patterns in the dataset. To overcome this, we modified the population workflow as shown in the different panels below:   
 ![image](https://user-images.githubusercontent.com/15121054/222725135-3c0ce2d5-fd67-4117-a8ed-7e6ca2a16ded.png)
 <em>Schematic diagrams of data population into MOSAIC v.2.0. Population workflow for **a)** article information, **b)** Geopoint core locations, and **c)** sample analyses. **d)** Population workflow of tables to avoid duplicates and link different analyses to the same sample. Colors in the tables indicate similarities in the values between each row (Data in MOSAIC vs. Data to be added). **e)** Database query for nearby cores. **f)** Sample analysis table grouping to populate each individual table. **g)** Example of harmonization workflow of radiocarbon analyses and sample composition.</em>
 
-Come check out the code used to [quality check the data]() and [populate it in the database]().
+We foster open source, so come check out the code used to [quality check the data]() and its [functions](), as well as the code used to [populate it in the database]() and its [functions]().
 
 #### 3. More variables
 
@@ -34,6 +34,6 @@ Come check out the code used to [quality check the data]() and [populate it in t
 ### How to cite MOSAIC v.2.0.
 MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
 
-## More to come!
+# What's next?
 We just received an Open Research Data-Contribute Project: *Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database* (**API-MOSAIC**). With this grant, we will further expand and update the accessibility to the MOSAIC database. 
 **New website and API are coming to you this 2023!**
