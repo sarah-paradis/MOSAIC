@@ -41,6 +41,6 @@ The first row lets you choose the category of the sample analysis: sample_compos
 ![image](https://user-images.githubusercontent.com/15121054/222732318-ca3119bb-5029-4000-ba41-2f324f70d763.png)
 
 The second row lets you choose the analysis you performed based on the category you defined in the previous row. You can see below that depending on the variable category, different variables are displayed:  
-![image](https://user-images.githubusercontent.com/15121054/222735190-8737ef24-a5bc-4c39-a0a2-b25a50b0ef1d.png) ![image](https://user-images.githubusercontent.com/15121054/222735266-34a7f5a1-1ca4-4f05-8066-d4ee6b822412.png)
+![image](https://user-images.githubusercontent.com/15121054/222735402-fb53102c-99c5-4a9c-aaed-62bdc84cba9b.png) ![image](https://user-images.githubusercontent.com/15121054/222735266-34a7f5a1-1ca4-4f05-8066-d4ee6b822412.png)
 
 
