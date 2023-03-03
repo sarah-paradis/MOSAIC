@@ -17,13 +17,18 @@ We have slightly updated the database's stucture, mainly modified the storage of
 
 #### 2. Database quality check and population workflow
 
+
+
 #### 3. More variables
+
 
 
 #### 4. Greater spatiotemporal coverage
 
 ![07_Global_map](https://user-images.githubusercontent.com/15121054/222675614-172d31bf-3765-4421-9942-fba32316759b.jpg)
 
+### How to cite MOSAIC v.2.0.
+MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
 
 ## More to come!
 We just received an Open Research Data-Contribute Project: Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database (**API-MOSAIC**). With this grant, we will further expand and update the accessibility to the MOSAIC database. 
