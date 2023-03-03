@@ -9,7 +9,7 @@ For more information on how to input data into this template, check out this [tu
 ## MOSAIC v.2.0
 We have been working hard to further expand MOSAIC, and we're ready to launch a new version of the database: **MOSAIC v.2.0!**
 
-### What's new in MOSAIC v.2.0
+### What's new in MOSAIC v.2.0?
 #### 1. Database structure
 We have slightly updated the database's stucture, mainly modified the storage of sample metadata, so you can easily see where the data came from (the reference), how it was measured (method), if we calculated the data based on existing parameters, etc.
 ![mosaic_structure-01](https://user-images.githubusercontent.com/15121054/222676833-d4a10ae4-120a-4a9f-9586-7521498e094a.jpg)
