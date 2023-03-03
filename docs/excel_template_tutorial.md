@@ -11,7 +11,7 @@ The first three sheets refer to the main data categories that the database store
 In each sheet, the columns that have a darker color are **mandatory**. If you don't fill them, the quality check algorithm will raise an error.
 
 ## ARTICLE_AUTHOR
-Fill in all the columns.
+Provide information about the source of the data. If you have a DOI, provide it, since it will allow the quality check and population algorithms to extract all the metadata from that source. The information of the title and author will be asked for in the SAMPLE_ANALYSES sheet. 
 
 ## GEOPOINTS_CORES
 Provide information about the sediment sampling. Columns in dark green are required, and the remaining columns are complimentary. 
@@ -22,3 +22,4 @@ Provide information about the sediment sampling. Columns in dark green are requi
 ## SAMPLE_ANALYSES
 Provide information about the analyses performed on the samples. Columns in dark red are mandatory, and the remaining columns are complimentary.
 - Geopoint Data
+![geopoint_article_author](https://user-images.githubusercontent.com/15121054/222727698-93334141-f93c-4561-8780-069990cb44ec.jpg)
