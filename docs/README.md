@@ -7,9 +7,7 @@ MOSAIC is a collaborative database! If you have data (published and unpublished)
 For more information on how to input data into this template, check out this [tutorial](excel_template_tutorial.md) for more information.
 
 ## MOSAIC v.2.0
-
-We're expanding MOSAIC, and with 
-![07_Global_map](https://user-images.githubusercontent.com/15121054/222675614-172d31bf-3765-4421-9942-fba32316759b.jpg)
+We have been working hard to further expand MOSAIC, and we're ready to launch a new version of the database: **MOSAIC v.2.0!**
 
 ### What's new in MOSAIC v.2.0
 #### 1. Database structure
@@ -19,6 +17,12 @@ We have slightly updated the database's stucture, mainly modified the storage of
 
 #### 2. Database quality check and population workflow
 
+#### 3. More variables
+
+
+#### 4. Greater spatiotemporal coverage
+
+![07_Global_map](https://user-images.githubusercontent.com/15121054/222675614-172d31bf-3765-4421-9942-fba32316759b.jpg)
 
 
 ## More to come!
