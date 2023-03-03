@@ -32,3 +32,10 @@ Choose from the drop-down menu the *title* and *author* name that you previously
 Provide the upper and bottom sample section slice of the core (sample_depth_upper_cm, sample_depth_bottom_cm) **and/or** the average section depth (sample_depth_average_cm). Provide as much information as possible.  
 Some studies only report that they sample *surface sediment* without specifying which sampling sectioning they performed (0-0.5 cm, 0-1 cm, 0-2 cm). In these situations, put 0 in *sample_depth_average_cm*, and you can even specify this under *sample_comments*. If you have any additional information to say about the sample section, add it under *sample_comment*.  
 ![sample_sectioning](https://user-images.githubusercontent.com/15121054/222728924-ce8d68b0-3916-4fed-8d3f-ddb9a269c810.jpg)
+
+## Adding sample analyses
+Given the complexity of the database, the data columns are dynamic. You can modify the column names based on the analyses that you have available.  
+![image](https://user-images.githubusercontent.com/15121054/222732199-1f8d594c-a8e3-4a6b-9283-5a54d7150bab.png)
+
+The first row 
+![image](https://user-images.githubusercontent.com/15121054/222732318-ca3119bb-5029-4000-ba41-2f324f70d763.png)
