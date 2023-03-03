@@ -54,3 +54,5 @@ The **fifth row** (*Material analyzed*) lets you choose if the analysis was perf
 The **sixth_row** (*Reported/calculated data*) lets you specify whether the data you provide was reported in the study/repository or if you calculated from other parameters. 
 
 **Note: You can have duplicate columns with the same analysis, as long as the method employed, material_analyzed, or reported/calculated field is different, as shown above.**
+
+[Here you can download an example of a filled-in Excel input file](https://github.com/sarah-paradis/MOSAIC/blob/main/Excel_templates/Example_input_file.xlsx)
