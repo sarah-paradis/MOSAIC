@@ -37,5 +37,5 @@ Some studies only report that they sample *surface sediment* without specifying 
 Given the complexity of the database, the data columns are dynamic. You can modify the column names based on the analyses that you have available. For example:  
 ![image](https://user-images.githubusercontent.com/15121054/222732199-1f8d594c-a8e3-4a6b-9283-5a54d7150bab.png)
 
-The first row let's you choose the category of the sample analysis: sample_composition (OC, TN, OC:TN ratio, TIC, CaCO<sub>3</sub>), sample_sediment_properties (dry bulk density, grain size, water content, porosity, surface area), sample_isotopes (\delta  13C).  
+The first row let's you choose the category of the sample analysis: sample_composition (OC, TN, OC:TN ratio, TIC, CaCO<sub>3</sub>), sample_sediment_properties (dry bulk density, grain size, water content, porosity, surface area), sample_isotopes ($\delta$ 13C).  
 ![image](https://user-images.githubusercontent.com/15121054/222732318-ca3119bb-5029-4000-ba41-2f324f70d763.png)
