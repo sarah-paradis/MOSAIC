@@ -43,4 +43,8 @@ The **first row** lets you choose the category of the sample analysis: sample_co
 The **second row** lets you choose the analysis you performed based on the category you defined in the previous row. You can see below that depending on the variable category, different variables are displayed:  
 ![image](https://user-images.githubusercontent.com/15121054/222735402-fb53102c-99c5-4a9c-aaed-62bdc84cba9b.png) ![image](https://user-images.githubusercontent.com/15121054/222735266-34a7f5a1-1ca4-4f05-8066-d4ee6b822412.png)
 
-The **third row** lets you
+The **third row** lets you choose the method category used to analyse this parameter.  
+![image](https://user-images.githubusercontent.com/15121054/222740812-20815d94-1080-4cb6-9f29-986d9af1ad93.png)
+
+
+**Note: You can have duplicate columns with the same analysis, as long as the method employed, material_analyzed, or reported/calculated field is different.**
