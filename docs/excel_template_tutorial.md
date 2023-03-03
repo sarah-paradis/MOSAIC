@@ -45,7 +45,7 @@ The **second row** (*Sample analysis*) lets you choose the analysis you performe
 
 The **third row** (*Method*) lets you choose the method category used to analyse this parameter. You can see below that depending on the analysis, different methods are displayed:   
 ![image](https://user-images.githubusercontent.com/15121054/222740812-20815d94-1080-4cb6-9f29-986d9af1ad93.png) ![image](https://user-images.githubusercontent.com/15121054/222746604-f274cae0-1a12-4c3a-a0db-ad33c2cabf0e.png)  
-Since the method categories do not allow you to provide details about the method employed, the **fourth row** (*Method details*) provides you with a space to add a free-text with additional information, such as the model's equipment employed, or pre-treatment used. In the case of biomarkers, we encourage you to specify which compounds were analyzed, as shown below:
+Since the method categories do not allow you to provide details about the method employed, the **fourth row** (*Method details*) provides you with a space to add a free-text with additional information, such as the model's equipment employed, or pre-treatment used. In the case of biomarkers, we encourage you to specify which compounds were analyzed, as shown below:  
 ![image](https://user-images.githubusercontent.com/15121054/222748504-bddfa17e-698a-42c0-bc24-d35dadaaef55.png)
 
 The **fifth row** (*Material analyzed*) lets you choose if the analysis was performed on bulk sediment, TOC, or which sediment or molecular fraction was analyzed. You can see below some common examples:  
