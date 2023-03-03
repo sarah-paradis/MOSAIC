@@ -27,7 +27,7 @@ We have slightly updated the database's stucture, mainly modified the storage of
 #### 4. Greater spatiotemporal coverage
 
 ![image](https://user-images.githubusercontent.com/15121054/222745443-f5c285b7-367a-4072-9c5c-edd5ac9c761a.png)  
-<em>Spatial distribution of sampling locations stored in the first iteration of MOSAIC (red) and additional data in MOSAIC v.2.0 (blue). Note the increase in spatial coverage for MOSAIC v.2.0. b) Temporal distribution of the datapoints in MOSAIC v.2.0. The previous iteration of MOSAIC did not store information of the sampling year.</em> 
+<em>**a)** Spatial distribution of sampling locations stored in the first iteration of MOSAIC (red) and additional data in MOSAIC v.2.0 (blue). Note the increase in spatial coverage for MOSAIC v.2.0. **b)** Temporal distribution of the datapoints in MOSAIC v.2.0. The previous iteration of MOSAIC did not store information of the sampling year.</em> 
 
 ### How to cite MOSAIC v.2.0.
 MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
