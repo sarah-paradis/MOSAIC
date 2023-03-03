@@ -4,7 +4,7 @@ The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC) is a database
 
 ## Contribute to MOSAIC
 MOSAIC is a collaborative database! If you have data (published and unpublished) and would like to contribute, download the [Excel template](https://github.com/sarah-paradis/MOSAIC/raw/main/Excel_templates/MOSAIC_input_excel_file_2022.xlsx) and send it back to mosaic@erdw.ethz.ch.
-For more information on how to input data into this template, check out this [tutorial](/excel_template_tutorial.md) for more information.
+For more information on how to input data into this template, check out this [tutorial](excel_template_tutorial.md) for more information.
 
 ## MOSAIC v.2.0
 
