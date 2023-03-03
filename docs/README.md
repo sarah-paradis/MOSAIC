@@ -3,7 +3,7 @@
 The Modern Ocean Sediment Archive and Inventory of Carbon (MOSAIC) is a database that compiles, but most importantly, harmonizes data from marine sediments worldwide. With this database, we aim to understand the factors that govern the distribution of organic carbon in marine sediments, such as the quantity, origin, and age of organic carbon.
 
 ## Contribute to MOSAIC
-MOSAIC is a collaborative database! If you have data (published and unpublished) and would like to contribute, download the [Excel template](https://github.com/sarah-paradis/MOSAIC/raw/main/Excel_templates/MOSAIC_input_excel_file_2022.xlsx) and send it back to mosaic@erdw.ethz.ch.
+MOSAIC is a collaborative database! If you have data (published and unpublished) and would like to contribute, download the [Excel template](https://github.com/sarah-paradis/MOSAIC/raw/main/Excel_templates/MOSAIC_input_excel_file_2022.xlsx) and send it back to mosaic@erdw.ethz.ch.  
 For more information on how to input data into this template, check out this [tutorial](excel_template_tutorial.md) for more information.
 
 ## MOSAIC v.2.0
@@ -17,7 +17,8 @@ We have slightly updated the database's stucture, mainly modified the storage of
 
 #### 2. Database quality check and population workflow
 
-
+![image](https://user-images.githubusercontent.com/15121054/222725135-3c0ce2d5-fd67-4117-a8ed-7e6ca2a16ded.png)
+<em>Schematic diagrams of data population into MOSAIC v.2.0. Population workflow for **a)** article information, **b)** Geopoint core locations, and **c)** sample analyses. **d)** Population workflow of tables to avoid duplicates and link different analyses to the same sample. Colors in the tables indicate similarities in the values between each row (Data in MOSAIC vs. Data to be added). **e)** Database query for nearby cores. **f)** Sample analysis table grouping to populate each individual table. **g)** Example of harmonization workflow of radiocarbon analyses and sample composition.</em>
 
 #### 3. More variables
 
