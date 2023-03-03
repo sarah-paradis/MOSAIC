@@ -23,7 +23,7 @@ One of the mistakes we identified from the previous quality check and population
 We foster open source, so come check out the code used to [quality check the data]() and its [functions](), as well as the code used to [populate it in the database]() and its [functions]().
 
 #### 3. More variables
-
+The number of variables stored in MOSAIC v.2.0 increased by ten-fold in comparison to the previous iteration, which only contained data of OC, total and organic nitrogen, CaCO<sub>3</sub>, biogenic silica, and the isotopic composition of OC (<sup>13</sup>C and <sup>14</sup>C).
 
 
 #### 4. Greater spatiotemporal coverage
