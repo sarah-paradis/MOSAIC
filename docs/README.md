@@ -9,28 +9,31 @@ For more information on how to input data into this template, check out this [tu
 ## MOSAIC v.2.0
 We have been working hard to further expand MOSAIC, and we're ready to launch a new version of the database: **MOSAIC v.2.0!**
 
-### What's new in MOSAIC v.2.0
+### What's new in MOSAIC v.2.0?
 #### 1. Database structure
 We have slightly updated the database's stucture, mainly modified the storage of sample metadata, so you can easily see where the data came from (the reference), how it was measured (method), if we calculated the data based on existing parameters, etc.
 ![mosaic_structure-01](https://user-images.githubusercontent.com/15121054/222676833-d4a10ae4-120a-4a9f-9586-7521498e094a.jpg)
 <em>Simple schematic representation of the database's structure</em>
 
 #### 2. Database quality check and population workflow
-
+One of the mistakes we identified from the previous quality check and population workflow was that it could lead to duplicate entries in the database and data published in different studies on the same samples were not properly lined together, hindering assessing relationships and patterns in the dataset. To overcome this, we modified the population workflow as shown in the different panels below:   
 ![image](https://user-images.githubusercontent.com/15121054/222725135-3c0ce2d5-fd67-4117-a8ed-7e6ca2a16ded.png)
 <em>Schematic diagrams of data population into MOSAIC v.2.0. Population workflow for **a)** article information, **b)** Geopoint core locations, and **c)** sample analyses. **d)** Population workflow of tables to avoid duplicates and link different analyses to the same sample. Colors in the tables indicate similarities in the values between each row (Data in MOSAIC vs. Data to be added). **e)** Database query for nearby cores. **f)** Sample analysis table grouping to populate each individual table. **g)** Example of harmonization workflow of radiocarbon analyses and sample composition.</em>
 
-#### 3. More variables
+We foster open source, so come check out the code used to [quality check the data]() and its [functions](), as well as the code used to [populate it in the database]() and its [functions]().
 
+#### 3. More variables
+The number of variables stored in MOSAIC v.2.0 increased by ten-fold in comparison to the previous iteration, which only contained data of OC, total and organic nitrogen, CaCO<sub>3</sub>, biogenic silica, and the isotopic composition of OC (<sup>13</sup>C and <sup>14</sup>C).
 
 
 #### 4. Greater spatiotemporal coverage
 
-![07_Global_map](https://user-images.githubusercontent.com/15121054/222675614-172d31bf-3765-4421-9942-fba32316759b.jpg)
+![image](https://user-images.githubusercontent.com/15121054/222745443-f5c285b7-367a-4072-9c5c-edd5ac9c761a.png)  
+<em>**a)** Spatial distribution of sampling locations stored in the first iteration of MOSAIC (red) and additional data in MOSAIC v.2.0 (blue). Note the increase in spatial coverage for MOSAIC v.2.0. **b)** Temporal distribution of the datapoints in MOSAIC v.2.0. The previous iteration of MOSAIC did not store information of the sampling year.</em> 
 
 ### How to cite MOSAIC v.2.0.
 MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
 
-## More to come!
-We just received an Open Research Data-Contribute Project: Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database (**API-MOSAIC**). With this grant, we will further expand and update the accessibility to the MOSAIC database. 
+# What's next?
+We just received an Open Research Data-Contribute Project: *Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database* (**API-MOSAIC**). With this grant, we will further expand and update the accessibility to the MOSAIC database. 
 **New website and API are coming to you this 2023!**
