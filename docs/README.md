@@ -20,7 +20,7 @@ One of the mistakes we identified from the previous quality check and population
 ![image](https://user-images.githubusercontent.com/15121054/222725135-3c0ce2d5-fd67-4117-a8ed-7e6ca2a16ded.png)
 <em>Schematic diagrams of data population into MOSAIC v.2.0. Population workflow for **a)** article information, **b)** Geopoint core locations, and **c)** sample analyses. **d)** Population workflow of tables to avoid duplicates and link different analyses to the same sample. Colors in the tables indicate similarities in the values between each row (Data in MOSAIC vs. Data to be added). **e)** Database query for nearby cores. **f)** Sample analysis table grouping to populate each individual table. **g)** Example of harmonization workflow of radiocarbon analyses and sample composition.</em>
 
-We foster open source, so come check out the code used to [quality check the data]() and its [functions](), as well as the code used to [populate it in the database]() and its [functions]().
+We foster open source, so come check out the code used to [quality check the data](https://github.com/sarah-paradis/MOSAIC/blob/main/src/main_quality_check.py) and its [functions](https://github.com/sarah-paradis/MOSAIC/blob/main/src/quality_check.py), as well as the code used to [populate it in the database](https://github.com/sarah-paradis/MOSAIC/blob/main/src/main_database_populate.py) and its [functions](https://github.com/sarah-paradis/MOSAIC/blob/main/src/database_populate.py).
 
 #### 3. More variables
 The number of variables stored in MOSAIC v.2.0 increased by ten-fold in comparison to the previous iteration, which only contained data of OC, total and organic nitrogen, CaCO<sub>3</sub>, biogenic silica, and the isotopic composition of OC (<sup>13</sup>C and <sup>14</sup>C).
