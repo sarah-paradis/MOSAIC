@@ -29,7 +29,7 @@ The number of variables stored in MOSAIC v.2.0 increased by ten-fold in comparis
 
 #### 4. Greater spatiotemporal coverage
 We have quadrupled the spatiotemporal coverage of data in MOSAIC v.2.0, with sediment samples spanning from the 1950s to present. More digitalization of data collected and published prior the 1990s is necessary. Help us do this!
-![image](https://user-images.githubusercontent.com/15121054/225640223-0c909a07-dab8-4591-ba51-43ed17d14516.png)
+![image](https://user-images.githubusercontent.com/15121054/225641264-1349e680-22fe-4799-bb27-3dd39d082057.png)
 <em>**a)** Spatial distribution of sampling locations stored in the first iteration of MOSAIC (red) and additional data in MOSAIC v.2.0 (blue). Note the increase in spatial coverage for MOSAIC v.2.0. **b)** Temporal distribution of the datapoints in MOSAIC v.2.0. The previous iteration of MOSAIC did not store information of the sampling year.</em> 
 
 ### How to cite MOSAIC v.2.0.
