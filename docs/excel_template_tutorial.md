@@ -3,7 +3,7 @@ MOSAIC is a collaborative database! If you have data (published and unpublished)
 
 ## Workbook structure
 The workbook has 4 sheets: ARTICLE_AUTHOR, GEOPOINTS_CORE, SAMPLE_ANALYSES, SET_VARIABLES. 
-![Excel_template_sheets](https://user-images.githubusercontent.com/15121054/222724572-83d3a9cf-87f0-4ed1-9b4e-eb051dec7ea1.jpg)
+![Excel_template_sheets](https://user-images.githubusercontent.com/15121054/226672609-cc2ddea4-fad8-48a8-abc8-6c8ee6e088a2.jpg)
 
 The first three sheets refer to the main data categories that the database stores, in a hierarchical configuration: the source metadata is stored in the ARTICLE_AUTHOR sheet, all the information regarding sampling (e.g., coordinates, sampling date, sampling technique) is stored in GEOPOINTS, and the different analyses performed on the sediment samples are stored in SAMPLE_ANALYSES
 ![1  Hierarchy-03](https://user-images.githubusercontent.com/15121054/222730501-93877178-5f77-4daa-a950-7e6e17eaf822.jpg)
