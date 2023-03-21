@@ -20,15 +20,16 @@ One of the mistakes we identified from the previous quality check and population
 ![image](https://user-images.githubusercontent.com/15121054/222725135-3c0ce2d5-fd67-4117-a8ed-7e6ca2a16ded.png)
 <em>Schematic diagrams of data population into MOSAIC v.2.0. Population workflow for **a)** article information, **b)** Geopoint core locations, and **c)** sample analyses. **d)** Population workflow of tables to avoid duplicates and link different analyses to the same sample. Colors in the tables indicate similarities in the values between each row (Data in MOSAIC vs. Data to be added). **e)** Database query for nearby cores. **f)** Sample analysis table grouping to populate each individual table. **g)** Example of harmonization workflow of radiocarbon analyses and sample composition.</em>
 
-We foster open source, so come check out the code used to [quality check the data]() and its [functions](), as well as the code used to [populate it in the database]() and its [functions]().
+We foster open source, so come check out the code used to [quality check the data](https://github.com/sarah-paradis/MOSAIC/blob/main/src/main_quality_check.py) and its [functions](https://github.com/sarah-paradis/MOSAIC/blob/main/src/quality_check.py), as well as the code used to [populate it in the database](https://github.com/sarah-paradis/MOSAIC/blob/main/src/main_database_populate.py) and its [functions](https://github.com/sarah-paradis/MOSAIC/blob/main/src/database_populate.py).
 
 #### 3. More variables
-The number of variables stored in MOSAIC v.2.0 increased by ten-fold in comparison to the previous iteration, which only contained data of OC, total and organic nitrogen, CaCO<sub>3</sub>, biogenic silica, and the isotopic composition of OC (<sup>13</sup>C and <sup>14</sup>C).
-
+The number of variables stored in MOSAIC v.2.0 increased by ten-fold in comparison to the previous iteration, which only contained compositional (OC, total and organic nitrogen, CaCO<sub>3</sub>, biogenic silica), and isotopic (<sup>13</sup>C and <sup>14</sup>C) data. MOSAIC v.2.0 also includes sedimentological variables and a broad range of biomarkers!
+![image](https://user-images.githubusercontent.com/15121054/225639241-b7303a14-d353-4256-b73f-0f2dd370b5c8.png)
+<em>Number of variables stored in the first iteration of MOSAIC **(a)** and in MOSAIC v.2.0 **(b)**, grouped by categories: compositional (e.g., OC, TN, CaCO3, biogenic opal), isotopic (e.g., δ13C, δ15N, Δ14C), sedimentological (e.g., grain size fractions, mineral surface area, dry bulk density), and biomarkers (e.g., lignin phenols, alkanes, fatty acids, alcohols).</em> 
 
 #### 4. Greater spatiotemporal coverage
-
-![image](https://user-images.githubusercontent.com/15121054/222745443-f5c285b7-367a-4072-9c5c-edd5ac9c761a.png)  
+We have quadrupled the spatiotemporal coverage of data in MOSAIC v.2.0, with sediment samples spanning from the 1950s to present. More digitalization of data collected and published prior the 1990s is necessary. Help us do this!
+![image](https://user-images.githubusercontent.com/15121054/225641264-1349e680-22fe-4799-bb27-3dd39d082057.png)
 <em>**a)** Spatial distribution of sampling locations stored in the first iteration of MOSAIC (red) and additional data in MOSAIC v.2.0 (blue). Note the increase in spatial coverage for MOSAIC v.2.0. **b)** Temporal distribution of the datapoints in MOSAIC v.2.0. The previous iteration of MOSAIC did not store information of the sampling year.</em> 
 
 ### How to cite MOSAIC v.2.0.

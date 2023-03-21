@@ -3,7 +3,7 @@ MOSAIC is a collaborative database! If you have data (published and unpublished)
 
 ## Workbook structure
 The workbook has 4 sheets: ARTICLE_AUTHOR, GEOPOINTS_CORE, SAMPLE_ANALYSES, SET_VARIABLES. 
-![Excel_template_sheets](https://user-images.githubusercontent.com/15121054/222724572-83d3a9cf-87f0-4ed1-9b4e-eb051dec7ea1.jpg)
+![Excel_template_sheets](https://user-images.githubusercontent.com/15121054/226672609-cc2ddea4-fad8-48a8-abc8-6c8ee6e088a2.jpg)
 
 The first three sheets refer to the main data categories that the database stores, in a hierarchical configuration: the source metadata is stored in the ARTICLE_AUTHOR sheet, all the information regarding sampling (e.g., coordinates, sampling date, sampling technique) is stored in GEOPOINTS, and the different analyses performed on the sediment samples are stored in SAMPLE_ANALYSES
 ![1  Hierarchy-03](https://user-images.githubusercontent.com/15121054/222730501-93877178-5f77-4daa-a950-7e6e17eaf822.jpg)
@@ -17,8 +17,8 @@ Provide information about the source of the data. If you have a DOI, provide it,
 Provide information about the sediment sampling. Columns in dark green are required, and the remaining columns are complimentary. 
 - **Core_name:** unique name of the retrieved sediment sample.  
 **Note that the core_name needs to be unique for indexing purposes. If you have two cores with the same name, modify their names so that they are unique (e.g., add the sampling year or month, name of cruise, etc.)**
-- **Latitude and Longitude:** should be provided in WGS 84 degrees decimal.
-- **Georeferenced_coordinates:** Defines whether the location of the sample was obtained by georeferencing a map, or whether they were provided in tabular format from the source.
+- **Latitude and Longitude:** should be provided in WGS 84 Decimal Degrees (DD).
+- **Georeferenced_coordinates:** Defines whether the coordinates were obtained by georeferencing a map or from the source (i.e., in the field).
 
 ## SAMPLE_ANALYSES
 Provide information about the analyses performed on the samples. Columns in dark red are mandatory, and the remaining columns are complementary.
@@ -30,7 +30,7 @@ Choose from the drop-down menu the *title* and *author* name that you previously
 ![geopoint_article_author](https://user-images.githubusercontent.com/15121054/222728834-31a43d9c-f7c6-419b-a262-357f770816fd.jpg)
 - **Section of sample in the core:** sample_depth_upper_cm, sample_depth_bottom_cm, sample_depth_average_cm
 Provide the upper and bottom sample section slice of the core (sample_depth_upper_cm, sample_depth_bottom_cm) **and/or** the average section depth (sample_depth_average_cm). Provide as much information as possible.  
-Some studies only report that they sample *surface sediment* without specifying which sampling sectioning they performed (0-0.5 cm, 0-1 cm, 0-2 cm). In these situations, put 0 in *sample_depth_average_cm*, and you can even specify this under *sample_comments*. If you have any additional information to say about the sample section, add it under *sample_comment*.  
+Some studies only report that they sample *surface sediment* without specifying which sampling sectioning they performed (0-0.5 cm, 0-1 cm, 0-2 cm). In these situations, put 0 in *sample_depth_average_cm*, and you can even specify this under *sample_comments*. If you have any additional information to share about the sample section, add it under *sample_comment*.  
 ![sample_sectioning](https://user-images.githubusercontent.com/15121054/222728924-ce8d68b0-3916-4fed-8d3f-ddb9a269c810.jpg)
 
 ## Adding sample analyses
