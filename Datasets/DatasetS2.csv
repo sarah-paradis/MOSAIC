@@ -1,0 +1,203 @@
+sample_analysis,sample_analysis_units,sample_analysis_description,sample_analysis_type,sample_analysis_type_description
+dry_bulk_density_g_cm3,g·cm-3,"Sediment dry bulk density (g·cm-3), calculated using the dry weight of the sample and the total sample volume: (dry mass / total volume).",sample_sediment_properties,Sedimentological properties of the sample
+clay_%_2microm,µm,Content of clay (< 2 µm) in the sample,sample_sediment_properties,Sedimentological properties of the sample
+median_grain_size_microm,µm,Median sediment grain size of the sample,sample_sediment_properties,Sedimentological properties of the sample
+mean_grain_size_microm_error,µm,Error of mean grain size of the sample,sample_sediment_properties,Sedimentological properties of the sample
+mode_grain_size_microm,µm,Grain size mode of the sample,sample_sediment_properties,Sedimentological properties of the sample
+surface_area_m2_g_error,m2·g,Error of sediment surface area,sample_sediment_properties,Sedimentological properties of the sample
+surface_area_m2_g,m2·g,Sediment surface area,sample_sediment_properties,Sedimentological properties of the sample
+clay_%_4microm,%,Content of clay (< 4 µm) in the sample,sample_sediment_properties,Sedimentological properties of the sample
+mud_silt_clay_%,%,"Content of muddy sediment, consisting of the combination of both silt and clay sediment fraction (< 63 µm)",sample_sediment_properties,Sedimentological properties of the sample
+silt_%,%,Content of silt (4-63 µm) in the sample,sample_sediment_properties,Sedimentological properties of the sample
+porosity,-,Relative amount of pore space within a sample volume. Porosity is a dimensionless parameter that ranges from 0 to 1. It is calculated as volume of pore space / total sample volume (Vpore/V).,sample_sediment_properties,Sedimentological properties of the sample
+water_content_%,%,"Water content of the sample (%), calculated dividing the water mass (or difference of total mass with dry mass) by the total mass: wet mass / total mass ·100 %",sample_sediment_properties,Sedimentological properties of the sample
+gravel_%,%,Content of gravel (> 2 mm) in the sample,sample_sediment_properties,Sedimentological properties of the sample
+mean_grain_size_microm,µm,Mean grain size of the sample,sample_sediment_properties,Sedimentological properties of the sample
+sand_%,%,Content of sand (63 µm-2 mm) in the sample,sample_sediment_properties,Sedimentological properties of the sample
+OC:ON_ratio_error,,Error of OC:ON ratio,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+OC:TN_ratio,,Organic carbon to total nitrogen ratio,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+OC:TN_ratio_error,,Error of OC:TN ratio,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+P_total_%,%,Total phosphorus concentration,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+P_org_%_error,%,Error of biogenic phosphorus concentration,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+P_org_%,%,Biogenic phosphorus concentration,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+SiO2_%,%,Biogenic silicate content (opal),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+SiO2_%_error,%,Error of biogenic silicate content (opal),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+S_total_%,%,Total sulphur content (%),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+P_total_%_error,%,Error of total phosphorus concentration,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+OC:ON_ratio,,Organic carbon to organic nitrogen ratio,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_nitrogen_%,%,Total nitrogen content (% = g TN / 100 g sediment),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+inorganic_nitrogen_%_error,%,"Error of the inorganic nitrogen content, if available",sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+inorganic_nitrogen_%,%,Inorganic nitrogen content (% = g IN / 100 g sediment),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+organic_nitrogen_%_error,%,"Error of the organic nitrogen content, if available",sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+CaCO3_%_error,%,"Error of CaCO3 content, if available",sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+CaCO3_%,%,CaCO3 content (% = g CaCO3 / 100 g sediment),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_inorganic_carbon_%_error,%,"Error of the total inorganic carbon content, if available",sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_inorganic_carbon_%,%,Total inorganic carbon content (% = g TIC / 100 sediment),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+OM_LOI_%_error,%,Error of organic matter content estimated through loss on ignition,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+OM_LOI_%,%,Organic matter content estimated through loss on ignition,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_organic_carbon_%_error,%,"Error of the total organic carbon content, if available",sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_organic_carbon_%,%,Total organic carbon content (% = g TOC / 100 g sediment),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_carbon_%_error,%,"Error of the total carbon content, if available",sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_carbon_%,%,Total carbon content (% = g TC /100 g sediment) ,sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+total_nitrogen_%_error,%,"Error of the total nitrogen content, if available",sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+organic_nitrogen_%,%,Organic nitrogen content (% = g ON / 100 g sediment),sample_composition,"Elemental composition of the sample (OC, TN, CaCO3, SiO2)"
+Delta_15N,‰,Delta notation of 15N,sample_isotopes,Stable isotopic concentrations of each sample and C-14 data
+Delta_15N_error,‰,Error in delta 15N,sample_isotopes,Stable isotopic concentrations of each sample and C-14 data
+Delta_18O_error,‰,Error in delta 18O,sample_isotopes,Stable isotopic concentrations of each sample and C-14 data
+Delta_18O,‰,Delta notation of 18O,sample_isotopes,Stable isotopic concentrations of each sample and C-14 data
+Delta_13C_error,‰,Error in delta 13C (OC),sample_isotopes,Stable isotopic concentrations of each sample and C-14 data
+Delta_13C,‰,Delta notation of 13C of acidified samples (OC content) with respect to Vienna Pee Dee Belemnite (VPDB) standard.,sample_isotopes,Stable isotopic concentrations of each sample and C-14 data
+Delta_14C,‰,Delta notation of 14C in acidified samples (OC) corrected for age,sample_14C,C-14 data of sediment sample
+Delta_14C_error,‰,Error in delta 14C (OC),sample_14C,C-14 data of sediment sample
+C14_laboratory,,Laboratory where C-14 was analyzed in,sample_14C,C-14 data of sediment sample
+Age_14C_ybp_error,years before present,Error in the C-14 age of the sample (OC),sample_14C,C-14 data of sediment sample
+Age_14C_ybp,years before present,Age of OC in the sample estimated from C-14 ,sample_14C,C-14 data of sediment sample
+Fm_14C_error,,Error of the fraction modern of C-14 (OC),sample_14C,C-14 data of sediment sample
+Fm_14C,,Fraction modern of C-14 in acidified samples (OC),sample_14C,C-14 data of sediment sample
+C14_label,,AMS label number of the 14C measurement,sample_14C,C-14 data of sediment sample
+"3,5-Bd_mg_g_error",mg·g-1,"Concentration error of 3,5-Bd",sample_biomarkers_CuO,Concentration yields of specific compounds during CuO oxidation
+Sd_Sl_ratio,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Vd_Vl_ratio_error,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Sd_Sl_ratio_error,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+P_SP_VP_ratio,,Ratio of p-hydroxybenzenes versus the sum of vanillyl and syringyl phenols in a sample.,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+"3,5Bd_VP_ratio_error",,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+P_SP_VP_ratio_error,,Error of the ratio of p-hydroxybenzenes versus the sum of vanillyl and syringyl phenols in a sample.,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Vd_Vl_ratio,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+"3,5Bd_VP_ratio",,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+SP_VP_ratio,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Phydroxybenzenes_mg_g,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+CP_VP_ratio,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Phydroxybenzenes_mg_g_error,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Cutin_acids_mg_g_error,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Cutin_acids_mg_g,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Cinnamyl_phenols_mg_g_error,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Cinnamyl_phenols_mg_g,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Syringyl_phenols_mg_g_error,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Syringyl_phenols_mg_g,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Vanillyl_phenols_mg_g_error,mg·g-1,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Vanillyl_phenols_mg_g,mg·g-1,"Total concentration of vanillyl phenols (vanillin, acetovanillone, vanillic acid)",sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Lignins_mg_g_error,mg·g-1,Error of lignin concentrations,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+Lignins_mg_g,mg·g-1,"Total concentration of lignin phenols (vanillyl, syringyl, cinnamyl phenols)",sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+SP_VP_ratio_error,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+CP_VP_ratio_error,,,sample_biomarkers_CuO_grouped,Concentration yields of compound classes during CuO oxidation
+total_K-37-38_ng_g,ng·g-1,,sample_alkenones,Concentrations of alkenones
+U-K-37,,,sample_alkenones,Concentrations of alkenones
+U-K-38-Et,,,sample_alkenones,Concentrations of alkenones
+U-K-38-Me,,,sample_alkenones,Concentrations of alkenones
+U-K-38,,,sample_alkenones,Concentrations of alkenones
+K-38-Me_ng_g,ng·g-1,,sample_alkenones,Concentrations of alkenones
+K-38-Et_ng_g,ng·g-1,,sample_alkenones,Concentrations of alkenones
+K-38_ng_g,ng·g-1,,sample_alkenones,Concentrations of alkenones
+K-37_ng_g,ng·g-1,,sample_alkenones,Concentrations of alkenones
+K-37_K-38_ratio,,,sample_alkenones,Concentrations of alkenones
+C33_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C16_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C17_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C18_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C19_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C20_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C21_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C22_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C23_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C24_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C25_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+ACL_alk,,Average (carbon) Chain Length of alkanes,sample_alkanes,Concentrations of aliphatic carbons
+C35_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C34_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C30_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C15_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C29_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C31_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C28_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C27_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+C26_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+OEP_alk,,odd over even predominance (different calculations?),sample_alkanes,Concentrations of aliphatic carbons
+CPI_alk,,Carbon preference index (odds/even),sample_alkanes,Concentrations of aliphatic carbons
+n-alkanes_ng_g,ng·g-1,Total concentration of measured alkanes,sample_alkanes,Concentrations of aliphatic carbons
+C32_alk_ng_g,ng·g-1,,sample_alkanes,Concentrations of aliphatic carbons
+TAR_HC,,Terrestrial aquatic hydrocarbon ratio (),sample_alkanes,Concentrations of aliphatic carbons
+Pr_ng_g,ng·g-1,Concentration of pristane,sample_alkanes,Concentrations of aliphatic carbons
+Ph_ng_g,ng·g-1,Concentration of phytane,sample_alkanes,Concentrations of aliphatic carbons
+Sq_ng_g,ng·g-1,Concentration of squalene,sample_alkanes,Concentrations of aliphatic carbons
+Di_ng_g,ng·g-1,Concentration of diploptene,sample_alkanes,Concentrations of aliphatic carbons
+UCM_ng_g,ng·g-1,Concentration of unresolved complex mixtures (UCM),sample_alkanes,Concentrations of aliphatic carbons
+C14_alk_ng_g,ng·g-1,Concentration of alkanes with a length of 14 carbon atoms,sample_alkanes,Concentrations of aliphatic carbons
+22-dehydrocholesterol_µg_g,µg·g-1,Concentration of cholesterol (cholest-5-en-3β-ol),sample_sterols,Concentrations of sterols
+total_sterols_µg_g,µg·g-1,,sample_sterols,Concentrations of sterols
+cholesterol_µg_g,µg·g-1,"Concentration of brassicasterol (24-methylcholest-5,22-dien-3b-ol)",sample_sterols,Concentrations of sterols
+brassicasterol_µg_g,µg·g-1,"Concentration of dinosterol (4a,23,24-trimethylcholest-22-en-3b-ol)",sample_sterols,Concentrations of sterols
+campesterol_µg_g,µg·g-1,"Concentration of dehydrocholestererol (cholest-5,22-dien-3β-ol)",sample_sterols,Concentrations of sterols
+stigmasterol_µg_g,µg·g-1,Concentration of campesterol (24-methylcholest-5-en-3b-ol),sample_sterols,Concentrations of sterols
+sitosterol_µg_g,µg·g-1,"Concentration of stigmasterol (24-ethylcholest-5,22-dien-3b-ol)",sample_sterols,Concentrations of sterols
+dinosterol_µg_g,µg·g-1,Concentration of sitosterol (24-ethylcholest-5-en-3b-ol),sample_sterols,Concentrations of sterols
+CPI_FA,,"Carbon Preference Index of fatty acids, developed by Bray & Evans in 1961, which can be indicative of the type of source material, and maturity of organic matter.",sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C20_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 20 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C36_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 36 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C35_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 35 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C34_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 34 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+ACL_FA,,Average (carbon) Chain Length of fatty acids,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C19_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 19 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C18_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 18 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C22_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 22 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C16_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 16 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C15_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 15 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C23_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 23 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C24_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 24 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C25_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 25 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C26_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 26 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C27_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 27 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C28_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 28 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C29_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 29 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C30_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 30 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C31_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 31 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C32_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 32 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C33_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 33 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C14_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 14 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C21_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 21 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+C17_FA_ng_g,ng·g-1,Concentration of fatty acids with a length of 17 carbon atoms,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+total_mono-unsaturated_fatty_acids_ng_g,ng·g-1,,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+total_fatty_acids_ng_g,ng·g-1,,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+total_saturated_fatty_acids_ng_g,ng·g-1,,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+total_poly-unsaturated_fatty_acids_ng_g,ng·g-1,,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+total_branched_fatty_acids_ng_g,ng·g-1,,sample_fatty_acids,"Concentrations of specific macronutrients (proteins, carbohydrates, lipids, chlorophyll) and any derived analysis"
+Asp_µmol_g,µmol·g-1,Concentration of aspartic acid,sample_amino_acids,Concentrations of amino acids
+Ser_µmol_g,µmol·g-1,Concentration of serine,sample_amino_acids,Concentrations of amino acids
+His_µmol_g,µmol·g-1,Concentration of histidine,sample_amino_acids,Concentrations of amino acids
+Gly_µmol_g,µmol·g-1,Concentration of cglycine,sample_amino_acids,Concentrations of amino acids
+Thr_µmol_g,µmol·g-1,Concentration of threonine,sample_amino_acids,Concentrations of amino acids
+Arg_µmol_g,µmol·g-1,Concentration of arginine,sample_amino_acids,Concentrations of amino acids
+β-Ala_µmol_g,µmol·g-1,Concentration of β-alanine,sample_amino_acids,Concentrations of amino acids
+Tau_µmol_g,µmol·g-1,Concentration of taurine,sample_amino_acids,Concentrations of amino acids
+Ala_µmol_g,µmol·g-1,Concentration of alanine,sample_amino_acids,Concentrations of amino acids
+Tyr_µmol_g,µmol·g-1,Concentration of tyrosine,sample_amino_acids,Concentrations of amino acids
+Glu_µmol_g,µmol·g-1,Concentration of glutamic acid,sample_amino_acids,Concentrations of amino acids
+Val_µmol_g,µmol·g-1,Concentration of valine,sample_amino_acids,Concentrations of amino acids
+Phe_µmol_g,µmol·g-1,Concentration of phenylalanine,sample_amino_acids,Concentrations of amino acids
+Ileu_µmol_g,µmol·g-1,Concentration of isoleucine,sample_amino_acids,Concentrations of amino acids
+Leu_µmol_g,µmol·g-1,Concentration of leucine,sample_amino_acids,Concentrations of amino acids
+Orn_µmol_g,µmol·g-1,Concentration of ornithine,sample_amino_acids,Concentrations of amino acids
+Lys_µmol_g,µmol·g-1,Concentration of lysine,sample_amino_acids,Concentrations of amino acids
+γ-Aba_µmol_g,µmol·g-1,Concentration of γ-aminobutyric acid,sample_amino_acids,Concentrations of amino acids
+THAA_µmol_g,µmol·g-1,Concentration of total hydrolyzable amino acids,sample_amino_acids,Concentrations of amino acids
+S3_mgHC_g,mg HC·g-1,Concentration of oxygen-containing compounds that lead to the production of CO2 and CO during pyrolysis heating to 390 ºC,sample_rock_eval_pyrolysis,Rock Eval parameters
+Tmax,,,sample_rock_eval_pyrolysis,Rock Eval parameters
+HI_mgHC_OCg,mg HC·OCg-1,Hydrogen indices (mg hydrocarbons / g OC),sample_rock_eval_pyrolysis,Rock Eval parameters
+S1_mgHC_g,mg HC·g-1,Concentration of hydrocarbons released from the sediments under pyrolytic conditions between 100 and 300 ºC (volatile HC components),sample_rock_eval_pyrolysis,Rock Eval parameters
+S2_mgHC_g,mg HC·g-1,Concentration of hydrocarbons released from the sediments under pyrolytic conditions between 300 and 650 ºC (thermal cracking of humic substances and resistant kerogens),sample_rock_eval_pyrolysis,Rock Eval parameters
+OI_mgCO2_gTOC,mg CO2·g TOC-1,Oxygen index,sample_rock_eval_pyrolysis,Rock Eval parameters
+C31_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 31 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C30_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 30 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C29_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 29 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C28_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 28 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C27_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 27 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C26_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 26 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C25_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 25 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C23_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 23 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C22_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 22 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C21_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 21 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C20_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 20 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C18_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 18 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+n_alcohols_ng_g,ng·g-1,Concentration of alcohols (check which carbon lengths are included to calculate these concentrations),sample_alcohols,Concentrations of alcohols in the sample
+CPI_alc,,"Carbon Preference Index of alcohols developed by Bray & Evans in 1961, which can be indicative of the type of source material, and maturity of organic matter.",sample_alcohols,Concentrations of alcohols in the sample
+C24_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 24 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
+C32_alc_ng_g,ng·g-1,Concentration of alcohols with a length of 32 carbon atoms,sample_alcohols,Concentrations of alcohols in the sample
