@@ -35,7 +35,7 @@ We have quadrupled the spatiotemporal coverage of data in MOSAIC v.2.0, with sed
 ### How to cite MOSAIC v.2.0.
 MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
 \n
-MOSAIC is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).![image](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png) 
+MOSAIC is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).![image](https://i.creativecommons.org/l/by/4.0/88x31.png) 
 
 # What's next?
 We just received an Open Research Data-Contribute Project: *Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database* (**API-MOSAIC**). With this grant, we will further expand and update the accessibility to the MOSAIC database. 
