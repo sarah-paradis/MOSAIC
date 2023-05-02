@@ -34,7 +34,7 @@ We have quadrupled the spatiotemporal coverage of data in MOSAIC v.2.0, with sed
 
 ### How to cite MOSAIC v.2.0.
 MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
-\n
+(br)
 MOSAIC is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). ![image](https://i.creativecommons.org/l/by/4.0/88x31.png) 
 
 # What's next?
