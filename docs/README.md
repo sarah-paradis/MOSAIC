@@ -12,12 +12,12 @@ We have been working hard to further expand MOSAIC, and we're ready to launch a 
 ### What's new in MOSAIC v.2.0?
 #### 1. Database structure
 We have slightly updated the database's stucture, mainly modified the storage of sample metadata, so you can easily see where the data came from (the reference), how it was measured (method), if we calculated the data based on existing parameters, etc.
-![mosaic_structure-01](https://user-images.githubusercontent.com/15121054/222676833-d4a10ae4-120a-4a9f-9586-7521498e094a.jpg)
+![mosaic_structure-01-01](https://user-images.githubusercontent.com/15121054/234294141-d1c2aef2-6e0b-42a4-9f7c-c33260d27fb1.jpg)
 <em>Simple schematic representation of the database's structure</em>
 
 #### 2. Database quality check and population workflow
 One of the mistakes we identified from the previous quality check and population workflow was that it could lead to duplicate entries in the database and data published in different studies on the same samples were not properly lined together, hindering assessing relationships and patterns in the dataset. To overcome this, we modified the population workflow as shown in the different panels below:   
-![image](https://user-images.githubusercontent.com/15121054/222725135-3c0ce2d5-fd67-4117-a8ed-7e6ca2a16ded.png)
+![02_Population_workflow_all-01](https://user-images.githubusercontent.com/15121054/234294198-14fdfbaa-483b-4b58-90bf-d8742c839e8b.jpg)
 <em>Schematic diagrams of data population into MOSAIC v.2.0. Population workflow for **a)** article information, **b)** Geopoint core locations, and **c)** sample analyses. **d)** Population workflow of tables to avoid duplicates and link different analyses to the same sample. Colors in the tables indicate similarities in the values between each row (Data in MOSAIC vs. Data to be added). **e)** Database query for nearby cores. **f)** Sample analysis table grouping to populate each individual table. **g)** Example of harmonization workflow of radiocarbon analyses and sample composition.</em>
 
 We foster open source, so come check out the code used to [quality check the data](https://github.com/sarah-paradis/MOSAIC/blob/main/src/main_quality_check.py) and its [functions](https://github.com/sarah-paradis/MOSAIC/blob/main/src/quality_check.py), as well as the code used to [populate it in the database](https://github.com/sarah-paradis/MOSAIC/blob/main/src/main_database_populate.py) and its [functions](https://github.com/sarah-paradis/MOSAIC/blob/main/src/database_populate.py).
@@ -29,11 +29,13 @@ The number of variables stored in MOSAIC v.2.0 increased by ten-fold in comparis
 
 #### 4. Greater spatiotemporal coverage
 We have quadrupled the spatiotemporal coverage of data in MOSAIC v.2.0, with sediment samples spanning from the 1950s to present. More digitalization of data collected and published prior the 1990s is necessary. Help us do this!
-![image](https://user-images.githubusercontent.com/15121054/225641264-1349e680-22fe-4799-bb27-3dd39d082057.png)
+![07_Global_map](https://user-images.githubusercontent.com/15121054/234294282-c65b40a0-827d-40ff-af7a-4c4bbfe7771b.jpg)
 <em>**a)** Spatial distribution of sampling locations stored in the first iteration of MOSAIC (red) and additional data in MOSAIC v.2.0 (blue). Note the increase in spatial coverage for MOSAIC v.2.0. **b)** Temporal distribution of the datapoints in MOSAIC v.2.0. The previous iteration of MOSAIC did not store information of the sampling year.</em> 
 
 ### How to cite MOSAIC v.2.0.
-MOSAIC v.2.0 is currently being peer-reviewed. We will update this section once it is officially published, with its corresponding DOI and other citation metrics.
+MOSAIC v.2.0 is currently being peer-reviewed, but you can access its pre-print [here](https://essd.copernicus.org/preprints/essd-2023-158/). We will update this section once it is officially published, with its corresponding DOI and other citation metrics.\
+![image](https://i.creativecommons.org/l/by/4.0/88x31.png)\
+MOSAIC is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). 
 
 # What's next?
 We just received an Open Research Data-Contribute Project: *Application Programming Interface for the Modern Ocean Sedimentary Inventory and Archive of Carbon database* (**API-MOSAIC**). With this grant, we will further expand and update the accessibility to the MOSAIC database. 

@@ -14,7 +14,7 @@ import os
 file_dir = 'quality_checked'
 
 # 1. Read data after quality check
-filename = '2023_03_16_Baozhi_unpublished.xlsx'
+filename = ''
 
 df_lists = dp.read_df(file=filename,
                       article_author_metadata='ARTICLE_AUTHOR',
